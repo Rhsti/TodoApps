@@ -22,6 +22,7 @@ h2{
   font-size: 2rem;  
   font-style: italic;
    margin-top: 5rem;
+   color:  rgb(189, 189, 140);
 }
 
 .btnDelete{
@@ -105,12 +106,33 @@ h2{
     font-size: 1rem;
     height: 2rem;
 }
+span{
+    color:  rgb(189, 189, 140);
+}
+@media (max-width: 768px) {
+    
+  
+li{ 
+    
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    margin-right: 1rem;
+}
+span{
+    width: 30vw;
+}
+.btnDelete{
+    padding: 0.4rem 1rem ;
+}
+.btnEdit{
+    padding: 0.5rem 1.5rem ;
+    margin-left: 0;
+}
 
-@media  screen and (max-width: 768px) {
-    
-    button{
-        display: flex;
-        flex-direction: column;
-    
-    }
+.btnCheck{
+    padding: 0.3rem 1rem ;
+  margin-right: 0rem;
+   
+}
 }

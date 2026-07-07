@@ -1,12 +1,13 @@
 .container{
-   background-color: black;
+   background-color: rgb(234, 234, 227);
    height: auto;
    min-height: 90vh;
    width: 80vw;
   border-radius: 15px;
   color: white;
 }
-h1{
+h1{ 
+        color:  rgb(189, 189, 140);
         display: flex;
         justify-content: center;
         padding-top: 1rem;
@@ -37,7 +38,7 @@ input:hover{
     border-radius: 10px;
     background-color: powderblue;
     font-size: 1rem;
-  
+    border-color: powderblue;
 
 }
 
