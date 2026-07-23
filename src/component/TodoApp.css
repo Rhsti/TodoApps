@@ -48,9 +48,9 @@ cursor: pointer;
 
 @media (max-width: 768px){
   input{
-    width: 150%;
+    width: 100%;
   }
   button{
-    justify-content: center;
+    align-items: center;
   }
 }

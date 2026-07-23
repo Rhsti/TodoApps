@@ -11,12 +11,24 @@
 
 
 /* li{ gap: 1rem;
+/* li{ gap: 1rem;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     font-size: 1.5rem;
     padding: 1rem;
      
+} */
+li{
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 100%;
 } */
 li{
     gap: 0.5rem;
@@ -36,9 +48,7 @@ h2{
    color:  rgb(189, 189, 140);
 }
 
-button{
-    color: white;
-}
+
 .btnDelete{
    /* position: relative;
    left: 3rem; */
@@ -128,6 +138,7 @@ span{
     
   
 /* li{ 
+/* li{ 
     
     list-style: none;
     font-size: 1.3rem;
@@ -147,6 +158,9 @@ span{
     width: 100%;
     max-width: 100%;
   }
+  button{
+    color: white;
+}
 .btnDelete{
     padding: 0.4rem 1rem ;
 }
