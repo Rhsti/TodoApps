@@ -11,6 +11,7 @@ import './TodoApp.css'
      <input  
       required
       minLength={5}
+      maxLength={40}
        value={Input}
        onChange={
         (e) => setInput(e.target.value) }
