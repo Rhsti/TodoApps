@@ -2,7 +2,8 @@
    background-color: rgb(234, 234, 227);
    height: auto;
    min-height: 90vh;
-   width: 80vw;
+    width: 90vw;
+     max-width: 700px;
   border-radius: 15px;
   color: white;
 }
@@ -17,7 +18,8 @@ h1{
 input{
     display: flex;
     justify-self: center;
-    width: 50vw;
+    width: 100%;
+     max-width: 500px;
     padding: 0.8rem  1rem;
     border-radius: 15px;
     border-color: white;
@@ -42,3 +44,8 @@ input:hover{
 
 }
 
+/* @media  screen and (max-width: 768px){
+  input{
+    
+  }
+} */
