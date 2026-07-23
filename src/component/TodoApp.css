@@ -1,11 +1,13 @@
 .container{
    background-color: rgb(234, 234, 227);
-   height: auto;
    min-height: 90vh;
     width: 90vw;
      max-width: 700px;
   border-radius: 15px;
   color: white;
+  display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 h1{ 
         color:  rgb(189, 189, 140);
@@ -18,7 +20,7 @@ h1{
 input{
     display: flex;
     justify-self: center;
-    width: 100%;
+    width: 150%;
      max-width: 500px;
     padding: 0.8rem  1rem;
     border-radius: 15px;
@@ -41,11 +43,14 @@ input:hover{
     background-color: powderblue;
     font-size: 1rem;
     border-color: powderblue;
-
+cursor: pointer;
 }
 
-/* @media  screen and (max-width: 768px){
+@media (max-width: 768px){
   input{
-    
+    width: 150%;
   }
-} */
+  button{
+    justify-content: center;
+  }
+}
