@@ -158,20 +158,22 @@ span{
     width: 100%;
     max-width: 100%;
   }
-  button{
-    color: white;
-}
+
 .btnDelete{
     padding: 0.4rem 1rem ;
+    color: white;
 }
 .btnEdit{
     padding: 0.5rem 1.5rem ;
     margin-left: 0;
+    color: white;
+   background-color: rgb(145, 190, 190);
 }
 
 .btnCheck{
     padding: 0.3rem 1rem ;
   margin-right: 0rem;
+  color: white;
    
 }
 }

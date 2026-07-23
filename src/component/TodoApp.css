@@ -47,10 +47,8 @@ cursor: pointer;
 }
 
 @media (max-width: 768px){
-  input{
-    width: 100%;
-  }
-  button{
-    align-items: center;
+  
+  .addTask{
+  justify-self: center;
   }
 }
